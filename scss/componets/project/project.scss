@@ -1,0 +1,90 @@
+.project{
+  padding: 150px 0;
+  background: #F2F2F2;
+  &__wrappe-top{
+	padding-bottom: 100px;
+	gap: 10%;
+	h2{
+	  font-weight: $font-weight-7;
+	  font-size: $font-xl;
+	  line-height: 54px;
+	  color: $main-title-color;
+	}
+	p{
+	  font-weight: $font-weight-4;
+	  font-size: $font-sm;
+	  line-height: 26px;
+	  color: $main-text-color;
+	}
+  }
+  &__wrapper-medium{
+	position: relative;
+	&-right{
+	  padding: 82px 62px 62px 62px ;
+	  h2{
+		font-weight: $font-weight-7;
+		font-size: $font-xl;
+		line-height: 48px;
+		color: $main-title-color;
+	  }
+	  p{
+		font-weight: $font-weight-4;
+		font-size: $font-sm;
+		line-height: 26px;
+		color: $main-text-color;
+	  }
+	  a{
+		font-weight: $font-weight-4;
+		font-size: $font-sm;
+		line-height: 18px;
+		text-decoration-line: underline;
+		color: $main-link-color;
+	  }
+	}
+	img{
+	  width: 100%;
+	}
+	&-block{
+	  display: flex;
+	  flex-direction: column;
+	  align-items: start;
+	  background-color: #ffff;
+	  padding: 40px 40px 0 40px;
+	  position: absolute;
+	  width: 34%;
+	  bottom: -30%;
+	  left: 20%;
+	}
+	p{
+	  font-style: $font-style;
+	  font-weight: $font-weight-4;
+	  font-size: $font-sm;
+	  line-height: 26px;
+	  color: $main-title-color;
+	}
+  }
+  &__item-people {
+	display: flex;
+	justify-content: center;
+
+	img {
+	  width: initial;
+	}
+
+	&-content {
+	  h3 {
+		font-weight: $font-weight-7;
+		font-size: $font-sm;
+		line-height: 24px;
+		color: $main-title-color;
+	  }
+
+	  p {
+		font-weight: $font-weight-4;
+		font-size: $font-xs;
+		line-height: 21px;
+		color: $main-text-italic-color;
+	  }
+	}
+  }
+}

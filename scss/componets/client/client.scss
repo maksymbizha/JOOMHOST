@@ -1,0 +1,18 @@
+.client{
+  position: absolute;
+  bottom: -12%;
+  width: 100%;
+
+  &__block{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 20px;
+	background: #FFFFFF;
+	box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+	border-radius: 2px;
+	img{
+	  width: 100%;
+	}
+  }
+}
