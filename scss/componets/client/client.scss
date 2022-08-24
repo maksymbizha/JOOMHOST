@@ -1,12 +1,17 @@
 .client{
-  position: absolute;
-  bottom: -12%;
-  width: 100%;
+  &__wrapper{
+	position: relative;
+	&-position{
+	  position: absolute;
+	  bottom: -75px;
+	  width: 100%;
+	}
+  }
   .carousel-indicators{
 	margin: 0;
   }
   .carousel-inner{
-	background: $client-bg-color;
+	background: $footer-text-color;
 	box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
 	display: flex;
 	align-items: center;
