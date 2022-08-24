@@ -1,0 +1,15 @@
+.call{
+  @media (max-width: 992px) {
+	&__wrapper{
+	  margin-bottom: -20%;
+	}
+	h2{
+	  font-size: 40px;
+	}
+  }
+  @media (max-width: 768px) {
+	&__wrapper{
+	  margin-bottom: -38%;
+	}
+  }
+}

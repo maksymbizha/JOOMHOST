@@ -1,0 +1,16 @@
+.client{
+  @media (max-width: 1200px){
+	.carousel-inner{
+	  .carousel-item{
+		right: -42%;
+	  }
+	}
+  }
+  @media (max-width: 992px){
+	.carousel-inner{
+	  .carousel-item{
+		right: -38%;
+	  }
+	}
+  }
+}

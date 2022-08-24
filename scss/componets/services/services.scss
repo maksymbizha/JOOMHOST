@@ -23,6 +23,9 @@
 	  line-height: 18px;
 	  text-decoration-line: underline;
 	  color: $main-link-color;
+	  &:hover{
+		color: $active-color;
+	  }
 	}
   }
   &__right{
